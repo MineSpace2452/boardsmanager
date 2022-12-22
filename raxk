@@ -1,0 +1,36 @@
+NullxLab.name=NullxLab Spoofed
+NullxLab.vid.0=0x9999
+NullxLab.pid.0=0x9999
+NullxLab.vid.1=0x9998
+NullxLab.pid.1=0x9998
+NullxLab.vid.2=0x9997
+NullxLab.pid.2=0x9997
+NullxLab.vid.3=0x9996
+NullxLab.pid.3=0x9996
+ 
+NullxLab.upload.tool=avrdude
+NullxLab.upload.protocol=avr109
+NullxLab.upload.maximum_size=28672
+NullxLab.upload.maximum_data_size=2560
+NullxLab.upload.speed=57600
+NullxLab.upload.disable_flushing=true
+NullxLab.upload.use_1200bps_touch=true
+NullxLab.upload.wait_for_upload_port=true
+ 
+NullxLab.bootloader.tool=avrdude
+NullxLab.bootloader.low_fuses=0xff
+NullxLab.bootloader.high_fuses=0xd8
+NullxLab.bootloader.extended_fuses=0xcb
+NullxLab.bootloader.file=caterina/Caterina-Leonardo.hex
+NullxLab.bootloader.unlock_bits=0x3F
+NullxLab.bootloader.lock_bits=0x2F
+ 
+NullxLab.build.mcu=atmega32u4
+NullxLab.build.f_cpu=16000000L
+NullxLab.build.vid=0x9999
+NullxLab.build.pid=0x9999
+NullxLab.build.usb_product="NullxLab Spoofed"
+NullxLab.build.board=AVR_LEONARDO
+NullxLab.build.core=arduino
+NullxLab.build.variant=leonardo
+NullxLab.build.extra_flags={build.usb_flags}
